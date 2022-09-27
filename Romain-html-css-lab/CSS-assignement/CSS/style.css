@@ -1,0 +1,155 @@
+* { 
+       margin: 0; 
+} 
+
+  body{
+  	color: #FFFFFF;
+  	background-image: url(../assets/images/dark-woodx.jpg);
+  	font-family: "Colibri", Times, sans-serif;
+  	margin: 0 0 0 0;
+}
+
+.container{
+  	width: 950px;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	background-color: #E6A970;
+
+}
+
+.content{
+  	line-height:1.4em;
+  	padding: 10px;
+}
+
+header, nav, footer{
+  	color: 000000;
+  	background-color: #F0DA8B;
+}
+
+nav ul{
+  	margin: 0;
+  	padding: 5px;
+}
+
+nav li{
+	text-transform: uppercase;
+	display: inline;
+	margin-right: 40px;
+}
+
+nav a:link{
+	color: #393DF0;
+}
+
+nav a:visited{
+	color: #ED3B2F;
+}
+
+nav a:hover{
+	color: #FFFFFF;
+}
+
+nav a:active{
+	color: #31F02A;
+}
+
+a{
+	color: #ED3B2F;
+	text-decoration: none;
+}
+
+.content h1, .content h2, .content h3{
+	margin: 10px;
+	text-transform: uppercase;
+	color: 	#0388B2;
+}
+
+.img-centre{
+	display: block;
+	margin: 5px auto;
+	padding: 2px;
+}
+
+audio{
+	display: block;
+	margin: 10px auto;
+	padding: 2px;
+}
+
+video{
+	display: block;
+	margin: 10px auto;
+	padding: 2px;
+}
+
+table{
+	width: 800px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+
+td, th{
+	padding: 2px 5px;
+	background-color: #C0C0C0;
+	border-width: thick;
+}
+
+tfoot td, th{
+	text-transform: uppercase;
+	background-color: #A9A9A9;
+	color: #EFEFEF;
+}
+
+dt{
+	font-weight: bold;
+}
+
+footer{
+	font-size: 80%;
+	text-align: center;
+	padding: 1px 0px;
+}
+
+iframe{
+	display:block;
+	margin:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+fieldset{
+	display:block;
+	width: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin:auto;
+	border-width:5px;
+	background-color: #C0C0C0;
+}
+
+legend{
+	font-style: italic;
+	background-color: #696969;
+	margin: 0px 10px;
+	padding: 0px 5px;
+	border-radius: 20px;
+}
+
+input[type=submit]{
+	border: 1px;
+	padding: 5px;
+	background-color: #000000;
+	color: #C0C0C0;
+
+}
+
+input[type=submit]:hover{
+	background-color: #000000;
+	color: #C0C0C0;
+	cursor: pointer;
+}
